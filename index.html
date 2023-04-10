@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Camera Image Processing </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<h1>Camera Image Processing </h1>
+		</div>
+		<div class="camera-feed">
+			<video id="video" width="640" height="480" autoplay></video>
+		</div>
+		<div class="stats">
+			<!-- Add your stats here -->
+		</div>
+		<div class="button-container">
+			<button class="button" id="capture-button">Capture Image</button>
+			<button class="button" id="enhance-button">Enhance Image</button>
+			<button class="button" id="record-button">Record Video</button>
+		</div>
+		<div class="recorded-video-container" >
+			<div class="recorded-video">
+				<video id="recorded-video-player" controls></video>
+			</div>
+		</div>
+		<div class="more-coming-soon">More features coming soon...</div>
+
+	</div>
+		<canvas id="canvas"></canvas>
+	<script src="script.js"></script>
+</body>
+</html>
